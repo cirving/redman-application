@@ -1,0 +1,242 @@
+section{
+	max-width:980px;
+	margin:0 auto;
+	}
+form{	    
+	width: 478px;
+	padding:12px;
+	}
+#tp-widgetHolder .tp-widget.tp-widget-2{
+	width:644px;
+	height:337px;
+	position:relative;
+	margin: 0 22px 0 0;
+	background: url(../img/stephanie.jpg);
+	background-size:100%;
+	display:inline-block;
+	vertical-align:top;
+}
+#tp-widgetHolder .tp-widget.tp-widget-2 .subtitle, #tp-widgetHolder .tp-widget.tp-widget-1 .subtitle{
+	color:#122e4d;
+	font-size:24px;
+	    font-family: 'Lato', sans-serif;
+	    margin:14px 0 18px 44px;
+}
+#tp-widgetHolder .tp-widget.tp-widget-1{
+	width:313px;
+	height:337px;
+	position:relative;
+	background: url(../img/back-2.png);
+	background-size:100%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#tp-widgetHolder .tp-widget.tp-widget-1 .subtitle{
+	margin:14px 0 18px 18px;
+}
+#tp-widgetHolder .tp-widget.tp-widget-1 img{
+	  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  width: 175px;
+  top: 64px;
+  right: -1px;
+}
+#tp-widgetHolder .tp-widget.tp-widget-1 .tp-widget-paragraph-access{
+	text-align:left;
+	width:130px;
+	font-size:14px;
+	line-height:30px;
+	 font-family: 'Lato', sans-serif;
+	 padding:10px 0 10px 10px;
+	 display:inline-block;
+	 vertical-align:top;
+}
+
+
+.form-group{
+	width:227px;
+	float: left;
+	margin:0 12px 0 0;
+}
+
+.form-group.type-submit{
+	margin:24px 12px 0 0;
+	float:right;
+}
+.form-group .form-label, .form-group label {
+	float:left;
+	width:80px;
+		font-size:13px;
+		text-align:center;
+		background:#1a3d63;
+		color:#fff;
+		padding:4px 0px;
+			font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+}
+
+
+.form-group label[for="message"]{
+	display:none;
+}
+
+.required.legend{display:none;}
+
+
+ .form-group.required label:after { 
+ 	content:"*"; float:right; margin:0 2px 0 0;
+ }
+
+ .form-group .form-input{
+	float:left;
+	width:147px;
+}
+
+.form-group .form-input textarea{
+	width:446px;
+	border:none;
+ resize: none;
+    height:45px;
+    overflow:hidden;
+    color:#8b8c8c;
+    padding:10px;
+    font-size:14px;
+    font-family: 'Lato', sans-serif;
+}
+
+ .form-group .form-input input[type="text"]{
+	width:147px;
+	padding:5px 0px;
+	border:none;
+	margin:0 12px 12px 0;
+}
+
+.form-group.preset-caslconsent{
+	float:none;
+}
+
+.form-group.preset-caslconsent .form-input{
+	width:478px;
+	
+}
+
+.form-group.preset-caslconsent .form-input .checkbox{
+	width:478px;
+	background:none;
+	text-align:left;
+}
+
+.form-group .checkbox input[type="checkbox"]{
+	display:inline-block;
+	color:#1a3d63;
+	vertical-align:top;
+}
+
+.form-group .checkbox p{
+	display:inline-block;
+	vertical-align:top;
+	background:none;
+	padding:0;
+	margin:0;
+	font-size:12px;
+	color:#1a3d63;
+	width:440px;
+	line-height:14px;
+}
+
+.form-group .controls button[type="submit"]{background:#f99407;
+border:none;
+text-transform: uppercase;
+color:#fff;
+font-size:15px;
+   font-family: 'Lato', sans-serif;
+   font-weight:bold;
+   padding:14px 20px;
+}
+
+.form-group.preset-captcha{
+	float:left;
+	margin:30px 0 0 0;
+		  text-align: center;
+}
+
+.form-group.preset-captcha .form-input{
+		width:114px;
+		margin: 0 0 0 5px;
+}
+.form-group.preset-captcha .form-input input[type="text"]{
+	margin:0;
+		width:114px;
+}
+
+.form-group.preset-captcha .form-input span{
+	   font-family: 'Lato', sans-serif;
+	   font-weight: lighter;
+	   font-size:13px;
+	   font-style: italic;
+	   color:#fff;
+}
+
+.form-group.preset-captcha label[for="captcha"]{
+	background:none;
+	padding:0;
+}
+
+.form-group.preset-captcha img{
+	width:60px;
+}
+
+.join-button{
+	position: absolute;
+  border-radius: 50%;
+  background: #f99407;
+  color: #fff;
+  width: 90px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  padding: 25px 0px 20px 0;
+  right: 0;
+  bottom: 69px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.plus-button{
+	text-decoration:none;
+position:absolute;
+bottom:0;
+left:0;
+   padding: 10px 30px 20px 30px;
+background:#1a3d63;
+color:#f99407;
+font-size:16px;
+  font-family: 'Lato', sans-serif;
+  z-index:0;
+  line-height:23px;
+  text-align:center;
+  width:244px;
+	}
+.plus-button:hover{
+	background:#02264c;
+}	
+
+ .specialist{
+	  position: absolute;
+  bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  right: 0;
+  text-align:right;
+  margin: 0 10px 0 0;
+  color:#fff;
+  line-height:30px;
+	}
+
+
